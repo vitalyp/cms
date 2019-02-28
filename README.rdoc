@@ -1,11 +1,19 @@
--= RailsCms =-
+Update to Rails 5.2 in progress.
+Current implementation require ruby 1.9.3p392
+If use rbenv:
+```
+rbenv install 1.9.3-p392
+rbenv local 1.9.3-p392
+gem install bundler
+bundle
+```
+Sqlite default database now. Run, to populate site languages:
+```
+rake db:seed
+```
+This version of cms tested, and works well with any extra configuration.
 
-Работа с RailsCms 'с нуля'
+admin page: localhost:3000/in
+password: admin/admin
 
-1. Создаем новый RVM (rails 3.2.*)
-2. Создаем новый Rails-проект, устанавливаем базу данных mysql или sqlite
-3. Добавляем Cms-плагин, подключаем его как GEM-файл
-4. Прогоняем bundle для установки всех зависимостей
-5. Запускаем инсталлятор через rake cms:wizard
-5. Запускаем сервер
-6. Входим в админку, создаем страницу и редактируем ее.
+Tip: use Ctrl+SPACE in editor, to show text helpers.
