@@ -1,0 +1,149 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+
+ru:
+  rus: Русский
+  login:
+    title: SoftwarePlanet CMS
+    username: Логин
+    password: Пароль
+    button: Войти
+    wrong: Неправильный логин или пароль
+    success: Добро пожаловать!
+
+  access:
+    denied: Доступ закрыт, авторизируйтесь
+
+  panels:
+    main:
+      title: Главная
+
+    structure:
+      title: Структура сайта
+
+    components:
+      title: Компоненты
+
+    gallery:
+      title: Галерея
+      create_folder: Добавить папку
+      add_image: Добавить картинку
+
+    settings:
+      title: Настройки
+
+    page_properties:
+      update_title: Свойства страницы
+      create_title: Создать страницу
+      name_title: Адрес / Имя
+      name_placeholder: Введите имя страницы
+      not_show_in_menu: Не показывать в меню
+      not_publish: Не публиковать на сайте
+      menu_string: Заголовок меню
+      seo_settings: Настройки SEO
+      seo_title: Заголовок
+      seo_title_placeholder: <title>
+      seo_keywords: Ключевые слова
+      seo_keywords_placeholder: <keywords>
+      seo_description: Описание
+      seo_description_placeholder: <description>
+
+      blank_address: Не может быть пустым
+      wrong_address: Уже существует
+      wrong: Не удалось создать страницу
+      success: Успешно добавлено
+
+    code_editor:
+      source_code_title: Исходный код
+      style_code_title: Стили оформления
+
+
+
+
+#  create_layout_form:
+#    title: Создать страницу
+#    name_title: Адрес / Имя
+#    not_show_in_menu: Не показывать в меню
+#    not_publish: Не публиковать на сайте
+#    seo_settings: Настройки SEO
+#    seo_title: Заголовок
+#    seo_title_placeholder: <title>
+#    seo_keywords: Ключевые слова
+#    seo_keywords_placeholder: <keywords>
+#    seo_description: Описание
+#    seo_description_placeholder: <description>
+#
+#    blank_address: Не может быть пустым
+#    wrong_address: Уже существует
+#    wrong: Не удалось создать страницу
+#    success: Успешно добавлено
+#
+#   # MERGE WITH create_layout_form ~!!!~
+#  layout_settings:
+#    title: Создать страницу
+#    name_title: Адрес / Имя
+#    not_show_in_menu: Не показывать в меню
+#    not_publish: Не публиковать на сайте
+#    seo_settings: Настройки SEO
+#    seo_title: Заголовок
+#    seo_title_placeholder: <title>
+#    seo_keywords: Ключевые слова
+#    seo_keywords_placeholder: <keywords>
+#    seo_description: Описание
+#    seo_description_placeholder: <description>
+#
+#    blank_address: Не может быть пустым
+#    wrong_address: Уже существует
+#    wrong: Не удалось создать страницу
+#    success: Успешно добавлено
+
+  save_layout_form:
+    blank_address: Не может быть пустым
+    address_exist: Уже существует
+    wrong_address: Не правильный адрес
+    wrong: Не удалось создать страницу
+    success: Успешно добавлено
+
+  update_page_properties:
+    blank_page_name: Имя не может быть пустым
+    name_already_exist: Страница с таким именем уже существует
+    page_name_incorrect: Имя страницы некорректное
+    error: Ошибка, введенные параметры некорректны.
+    success: Параметры успешно обновлены
+
+  create_component_form:
+    title: Создать компонент
+    name_title: Имя компонента
+    name_placeholder: Введите имя компонента…
+    blank_name: Укажите имя компонента
+    wrong_name: Имя имеет недопустимые символы
+    component_exist: Компонент с таким именем уже существует
+    error: Невозможно создать компонент
+    success: Компонент успешно создано
+
+  save_component_form:
+    blank_name: Укажите имя компонента
+    wrong_name: Имя имеет недопустимые символы
+    component_exist: Компонент с таким именем уже существует
+    error: Невозможно переименовать компонент
+    success: Компонент успешно переименовано
+
+  settings_form:
+    default_layout: Выберите начальную страницу
+    images_path: Путь к галерее картинок
+    admin_locale_name: Сменить язык (CMS language)
+    show_locale_in_url: Выводить текущую локаль в адресе сайта?
+
+  ui:
+    edit_properties: Редактировать свойства
+    delete_page: Удалить страницу
+    delete_component: Удалить компонент
+
+    page_single_word: страница
+    page_few_word: страницы
+    pages_many_word: страниц
+
+    save: Сохранить
+    cancel: Отмена
+    quit: Вы уверены что хотите выйти?

@@ -25,11 +25,11 @@
 //= require codemirror/modes/http
 //= require codemirror/modes/javascript
 //= require codemirror/modes/jinja2
-//= require codemirror/modes/less
+//require codemirror/modes/less
 //= require codemirror/modes/lua
 //= require codemirror/modes/markdown
 //= require codemirror/modes/ntriples
-//= require codemirror/modes/ocaml
+//require codemirror/modes/ocaml
 //= require codemirror/modes/pascal
 //= require codemirror/modes/perl
 //= require codemirror/modes/php
@@ -37,11 +37,11 @@
 //= require codemirror/modes/properties
 //= require codemirror/modes/python
 //= require codemirror/modes/r
-//= require codemirror/modes/rpm-changes
-//= require codemirror/modes/rpm-spec
+//require codemirror/modes/rpm-changes
+//require codemirror/modes/rpm-spec
 //= require codemirror/modes/rst
 //= require codemirror/modes/ruby
-//= require codemirror/modes/rust
+//require codemirror/modes/rust
 //= require codemirror/modes/sass
 //= require codemirror/modes/scheme
 //= require codemirror/modes/shell

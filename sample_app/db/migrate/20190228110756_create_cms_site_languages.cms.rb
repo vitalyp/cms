@@ -1,4 +1,4 @@
-# This migration comes from softwareplanet-cms (originally 20121128132941)
+# This migration comes from cms (originally 20121128132941)
 class CreateCmsSiteLanguages < ActiveRecord::Migration
   def change
     create_table :cms_site_languages do |t|

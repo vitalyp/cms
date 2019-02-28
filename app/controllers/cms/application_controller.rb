@@ -32,7 +32,7 @@
 
     def initialize
       super
-      I18n.default_locale = "eng"
+      I18n.default_locale = "en"
     end
 
     def set_locale

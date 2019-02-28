@@ -1,4 +1,4 @@
-wsource 'https://rubygems.org'
+source 'https://rubygems.org'
 # Specify any dependencies in the gemspec
 gemspec
 

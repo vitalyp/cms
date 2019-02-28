@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 #gem 'mysql2'
-gem 'sqlite3'
-gem 'softwareplanet-cms', :path => 'softwareplanet-cms'
+gem 'sqlite3', '~> 1.3.6'
+gem 'softwareplanet-cms', :path => '../'
 #gem 'activefile', :path => 'activefile'
 
 # Gems used only for assets and not required
@@ -19,5 +19,7 @@ gem 'jquery-rails'
 gem 'codemirror-rails' 
 gem 'aloha-rails' 
 #=   CMS REQUIREMENTS END   =#
-gem 'bootstrap-sass' 
+gem 'bootstrap-sass', '~> 3.0.3.0'
 gem 'haml'
+
+gem 'haml' 

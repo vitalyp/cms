@@ -13,8 +13,8 @@ $assets_path: "/assets/ui";
   background: -moz-linear-gradient(center top, #222 0%,#000 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222),color-stop(1, #000)) !important;
 }
-.panel  { /*@extend .blue-gradient;*/ }
-.toolbar { /*@extend .black-gradient;*/  }
+.panel  { @extend .blue-gradient; }
+.toolbar { @extend .black-gradient;  }
 
 :focus {outline: none;border:  none;}
 .expander {
@@ -54,7 +54,7 @@ body.cms {
   .icon {
     position: relative;
     margin-top: 24px;
-    height: 60px;
+    height: 53px;
     cursor: pointer;
     float: left;
     text-align: right;
